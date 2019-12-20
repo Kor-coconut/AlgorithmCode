@@ -1,13 +1,22 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "(Go)launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${file}"
+        },
+
+
         
         {
             "name": "(gdb) Launch",
             "type": "cppdbg", 
             "request": "launch", 
             // // 이 밑 부분 파일경로, 파일명을 맞게 고쳐야합니다! 
-            "program": "${workspaceFolder}/test.exe", 
+            "program": "${workspaceFolder}/hello.exe", 
             "args": [], 
             "stopAtEntry": false, 
             "cwd": "${workspaceFolder}", 
