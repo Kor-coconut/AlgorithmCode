@@ -17,5 +17,5 @@ int main(int argc, char *argv[]) {
     string c = "code";
     cout << "Hello" << " " << c << "\n";
     solve();
-    system("puase");
+    //system("puase");
 }
